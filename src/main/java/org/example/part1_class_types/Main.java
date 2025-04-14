@@ -57,17 +57,6 @@ public class Main {
         parrotObject.doSound();
 
 
-        /** Clase Anonime**/
-            /* Clasa abstracta */
-        AbstractAnimal abstractAnimalObject = new AbstractAnimal() {
-            @Override
-            public void makeSound() {
 
-            }
-        };
-
-
-            /* Interfata */
-        InterfaceAnimal interfaceAnimalObject;
     }
 }
