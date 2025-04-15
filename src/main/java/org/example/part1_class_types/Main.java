@@ -7,6 +7,7 @@ import org.example.part1_class_types.class_interface.Crocodile;
 import org.example.part1_class_types.class_interface.InterfaceAnimal;
 import org.example.part1_class_types.class_interface.Parrot;
 import org.example.part1_class_types.class_object_concrete.ConcreteAnimal;
+import org.example.part1_class_types.multiple_inheritance.ElectricCar;
 
 public class Main {
     public static void main(String[] args) {
@@ -56,7 +57,11 @@ public class Main {
         animalObject2.doSound();
         parrotObject.doSound();
 
-
+        /* Multiple inheritance */
+        ElectricCar electricCar = new ElectricCar("Opel" , "Astra" , 2020, 93, 500);
+        electricCar.displayStatus();
+        electricCar.chargeBattery();
+        electricCar.navigateTo("Suceava");
 
     }
 }
