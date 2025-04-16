@@ -3,6 +3,7 @@ package org.example.part1_class_types;
 import org.example.part1_class_types.class_abstract.AbstractAnimal;
 import org.example.part1_class_types.class_abstract.Bird;
 import org.example.part1_class_types.class_abstract.Dog;
+import org.example.part1_class_types.class_final.MathUtils;
 import org.example.part1_class_types.class_interface.Crocodile;
 import org.example.part1_class_types.class_interface.InterfaceAnimal;
 import org.example.part1_class_types.class_interface.Parrot;
@@ -63,5 +64,11 @@ public class Main {
         electricCar.chargeBattery();
         electricCar.navigateTo("Suceava");
 
+        /*
+        |Final Class
+         */
+
+        MathUtils mathUtils = new MathUtils();
+        System.out.println(mathUtils.CONSTANT_TEXT);
     }
 }
