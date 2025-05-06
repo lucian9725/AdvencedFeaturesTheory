@@ -1,4 +1,4 @@
-package org.example.part4_generic;
+package org.example.part4_generic.generic_class;
 
 import java.util.ArrayList;
 import java.util.List;

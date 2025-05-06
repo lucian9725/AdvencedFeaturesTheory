@@ -1,4 +1,4 @@
-package org.example.part4_generic;
+package org.example.part4_generic.generic_class;
 
 public class Triplet<K, V1, V2> {
     private K key;
